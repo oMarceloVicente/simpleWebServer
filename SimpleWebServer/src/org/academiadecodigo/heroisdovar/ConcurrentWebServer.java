@@ -97,7 +97,7 @@ public class ConcurrentWebServer {
 
     public class ClientRequest implements Runnable {
 
-        private Socket clientSocket;
+        private final Socket clientSocket;
 
         public ClientRequest(Socket clientSocket) {
             this.clientSocket = clientSocket;

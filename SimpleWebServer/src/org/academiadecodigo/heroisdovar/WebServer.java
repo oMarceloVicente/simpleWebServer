@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class WebServer {
 
-    private int port;
+    private final int port;
     private ServerSocket serverSocket;
     private Socket clientSocket;
     private BufferedReader in;
